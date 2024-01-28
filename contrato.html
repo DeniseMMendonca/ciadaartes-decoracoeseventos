@@ -94,13 +94,13 @@ function goBack() {
 
    <section>
     <h2>Seus Dados</h2>
-    <form action="https://api.staticforms.xyz/submit" method="post">
+    <form action="https://api.staticforms.xyz/submit" method="post" autocomplete="off" required>
     <label>Nome</label>
-    <input type="text" name="name" placeholder="Digite seu nome">
+    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
     <label>Email</label>
     <input type="emil" name="email" placeholder="Digite seu email">
     <label>Mensagem</label>
-    <textarea name="message" cols="30" rows="10" placeholder=""></textarea>
+    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mansagem" required></textarea>
 
     <input type="hidden" name="accessKey" value="5bbb5327-6bbb-4b93-a41e-74589e1a6ea1">
     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
