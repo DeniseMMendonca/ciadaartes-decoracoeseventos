@@ -178,9 +178,8 @@ form input {
     font-size: 1rem;
     text-align: center;
   }
-  @media (max-width: ) {
-    .nav-urna, .article-urna {
-        width: 100%;
-        height: auto;
-    }
+  }
+  @media screen and (max-device-width: 900px) {
+  .section { width:100%; } 
 }
+ 
