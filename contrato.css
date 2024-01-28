@@ -112,7 +112,7 @@ form input {
     border: 0;
     margin-bottom: 5px;
     font-size: 15px;
-  width: 200px;
+  width: 255px;
     
   }
 
@@ -127,7 +127,6 @@ form input {
     font-size: 15px;
     margin-bottom: 5px;
     transition: all 0.5s;
-    width: 239px;
   }
   
   form textarea:focus {
