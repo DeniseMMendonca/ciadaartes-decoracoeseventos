@@ -180,10 +180,7 @@ form input {
 
    h6 {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
-  }
-  @media screen and (max-device-width: 900px) {
-  .section { width:100%; } 
-}
+ 
  
