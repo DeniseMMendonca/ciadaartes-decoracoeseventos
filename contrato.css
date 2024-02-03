@@ -164,6 +164,8 @@ form input {
     color: white;
     border-radius: 3px;
     cursor: pointer;
+   margin-right: 1%;
+    margin-left: 1%; 
  }
 .btn {
     padding: 20px 20px;
