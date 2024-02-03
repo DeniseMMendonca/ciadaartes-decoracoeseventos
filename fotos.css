@@ -10,6 +10,18 @@ body{
     margin-left: 45%;
      mix-blend-mode: multiply;
   }
+@media only screen and (max-width: 600px) {
+  .divlogo {
+    
+   
+height: 50%; /* Ajusta a altura para 50% da altura do elemento pai */
+    
+
+ 
+width: 50%; /* Ajusta a largura para 50% da largura do elemento pai */
+  }
+}
+
 
   h1 {
     color: blue;
