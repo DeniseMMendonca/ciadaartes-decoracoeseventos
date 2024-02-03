@@ -40,9 +40,21 @@ body{
 
   #galeria > div {
     float: left;
-    width: 10%;
-    padding: 10px;
-    box-sizing: 10px;
+    width: 25%;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 768px) {
+    #galeria > div {
+      width: 33.33%; 
+      }
+  }     
+ 
+  @media screen and (max-width: 480px) {
+      #galeria > div {
+  width: 50%; 
+      }
   }
 
   .foto img {
@@ -56,8 +68,8 @@ body{
 
   #galeria .foto:target {
     position: fixed;
-    width: 40%;
-    top: 15px;
+    width: 90%;
+    top: 5%;
     left: 25%;
     padding: 10px;
     border: solid 1px #333;
