@@ -165,22 +165,27 @@ form input {
   }
 
  
+
   .footer {
-    background-color: white;
+    background-color: rgb(105, 138, 56);
     color: black;
-    padding: 20px;
-    height: 280px;
+    padding: 0px ;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%; 
   }
   
   .container {
     width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 500%;
+    margin: auto;
   }
+ 
 
    h6 {
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
   }
+
  
  
