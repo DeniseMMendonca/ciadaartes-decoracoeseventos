@@ -83,20 +83,7 @@ width: 50%; /* Ajusta a largura para 50% da largura do elemento pai */
     display: block;
   }
 
-@media (max-width: 255px) {
-  .photo {
-    flex-basis: calc(50% - 10px); 
-  }
-}
 
-@media (max-width: 3000px) {
-  .photo {
-    flex-basis: calc(100% - 10px); 
-  }
-}
-  .foto:target .detalhes {
-    display: block;
-  }
 
   
   .button {
